@@ -1,3 +1,6 @@
+Created cluster in my local linux using few docs:
+
+
 1) I have deployed all pods in my cluster , and i found adservice pod is crashing due to unable to pull the specified image in yaml file "gcr.io/google-samples/microservices-demo/adservice:v0.3.1
  ==> So i have followed the below steps
 	--> edited the ad-service yaml file and changed image version to adservice:v0.3.4 and did a rollout restart deployment .
